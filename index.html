@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCrunch News</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (min-width: 980px) and (max-width: 1503px)" href="media.css">
+    <link rel="stylesheet" media="screen and (max-width: 977px)" href="media1.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="TechNews">
+            <p class="title">TechNews</p>
+
+            <span class="openbtn" id="opennav" onclick="opennav()">&equiv;</span>
+        </div>
+        <div class="nav">
+            <ul class="nav1">
+                <a href="javascript:void(0)" class="closebtn" onclick='closenav()'>&times;</a>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Newspapers</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="wallstreet_news">
+            <img class=wallstreet_img src="" alt="Uploading">
+            <span class="inner_wallstreet">
+                <h1 class="wallstreet_head">Wall Street Journal</h1>
+                <p class="wallstreet_name">Author : </p>
+                <p class="wallstreet_date">Published At :</p>
+                <p class="wallstreet_title">Title :</p>
+                <p class="wallstreet_description"></p>
+            </span>
+            <div class="wallstreet_btn">
+                <span id="wallstreet_button" class="wallstreetright_btn">&gt;</span>
+            </div>
+        </div>
+
+        <div class="business_news">
+            <img class=business_img src="" alt="Uploading">
+            <span class="inner_business">
+                <h1 class="business_head">Business News</h1>
+                <p class="busi_name">Author : </p>
+                <p class="busi_date">Published At :</p>
+                <p class="busi_title">Title :</p>
+                <p class="busi_description"></p>
+            </span>
+            <div class="busi_btn">
+                <span id="busi_button" class="busiright_btn">&gt;</span>
+            </div>
+        </div>
+
+        <div class="tech_news">
+            <img class=tech_img src="" alt="Uploading">
+            <span class="inner_tech">
+                <h1 class="tech_head">Tech News</h1>
+                <p class="name">Author : </p>
+                <p class="date">Published At :</p>
+                <p class="tech_title">Title :</p>
+                <p class="description"></p>
+            </span>
+            <div class="tech_btn">
+                <span id="btn" class="right_btn">&gt;</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021 All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

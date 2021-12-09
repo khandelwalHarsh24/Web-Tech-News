@@ -1,0 +1,110 @@
+/* navbar */
+
+
+.navbar{
+    width: 60em;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    width: 100rem;
+}
+/* sidenav bar*/
+.nav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+}
+.nav .nav1 a{
+    padding: 30px 8px 8px 32px;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s
+}
+
+.nav .nav1 li a:hover{
+    position:absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/* openbtn */
+.openbtn,.closebtn{
+    visibility: visible; 
+    font-size: 60px;
+    display: flex;
+    position: relative;
+    right: 10px;
+}
+
+.closebtn{
+    text-decoration: none;
+    color: #fff;
+}
+
+#opennav{
+    flex-grow: 2;
+    align-self: center;
+    justify-content: flex-end;
+    color:white;
+}
+
+
+/* container */
+
+.container{
+    height: 167rem;
+    width: 60rem;
+}
+.wallstreet_img,.tech_img,.business_img{
+    /* width: 100px;
+    height: 100px; */
+    width: 228px;
+    height: 150px;
+    
+}
+
+.business_news,.tech_news,.wallstreet_news{
+    height: 60rem;
+    width: 41rem;
+    flex-direction: column;
+}
+
+
+.busi_description,.wallstreet_description,.description{
+    display: block;
+    width:425px;
+}
+
+.busi_title,.tech_title,.wallstreet_title{
+    width: 442px;
+}
+
+#btn,#wallstreet_button,#busi_button{
+    font-size: 50px;
+}
+
+/* footer */
+footer{
+    width: 60em;
+}
+
+

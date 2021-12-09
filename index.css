@@ -1,0 +1,361 @@
+/* .container{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top:0px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 4px;
+    flex-direction: column;
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    color: white;
+    animation: harsh 2s ease-in-out 0s infinite;
+    height:50px;
+}
+.news{
+    height: 350px;
+    border: 2px solid red;
+}
+@keyframes harsh {
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgba(26, 225, 228, 0.6);
+    }
+    100%{
+        color: white;
+    }
+}
+.author,.title,.description{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.btn{
+    background-color: rgba(14, 230, 64, 0.884);
+    font-size: 15px;
+    position: relative;
+    top: 500px;
+    left: 400px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+} */
+
+
+/*class navbar */
+
+.navbar{
+    display: flex;
+}
+
+
+/* logo image */
+
+.logo{
+    width: 300px;
+    display: flex;
+    background-color: rgba(25, 124, 223, 0.5);
+    border-radius: 4px;
+    animation: harsh 4s ease-in-out 0s infinite backwards;
+}
+
+@keyframes harsh {
+    0%{
+        background-color: rgba(25, 124, 223, 0.5);
+    }
+    50%{
+        background-color: #222831;
+    }
+}
+
+.logo img{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 10px;
+    left: 53px;
+}
+
+.title{
+    position:relative;
+    left: 66px;
+    top: 10px;
+    font-size: 25px;
+    font-family:cursive;
+    color: rgba(33, 37, 41, 0.5);
+    animation: harsh1 4s ease-in-out 0s infinite backwards;
+}
+
+@keyframes harsh1 {
+    0%{
+        color:rgba(33, 37, 41, 0.5);
+    }
+    50%{
+        color: #EEEEEE;
+    }
+}
+
+/* nav  */
+.nav{
+    width: 1244px;
+    background-color: #222831;
+}
+
+.nav1{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    height: 68px;
+    width: 600px;
+} 
+
+.nav1 li{
+    list-style: none;
+    margin-left: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    color:#EEEEEE;
+    font-size:23px;
+}
+
+/* hover effect */
+
+.nav li a:hover{
+    color:rgba(61, 97, 148, 0.5)
+}
+
+/* openbtn,closebtn*/
+.openbtn,.closebtn{
+    visibility: hidden;
+}
+
+/* container */
+
+.container{
+    border: 2px solid rgba(25, 124, 223, 0.5);
+    height: 202vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(25, 124, 223, 0.5);
+    
+}
+
+/* boxes for news */
+
+.wallstreet_news,.business_news,.tech_news{
+    width: 90vw;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+/* tech news box */
+
+.tech_news{
+    border: 2px solid rgba(64, 61, 148, 0.5);
+    display: flex;
+    border-radius: 4px;
+    background-color: rgba(64, 61, 148, 0.5);
+}
+
+.tech_img{
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.inner_tech{
+    width: 800px;
+}
+
+.inner_tech .name,.date{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_tech .tech_title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_tech p{
+    position: relative;
+    left: 10px;
+}
+
+.inner_tech .description{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tech_btn{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#btn{
+    border: 2px solid rgba(253, 251, 253, 0.081);
+    font-size: 30px;
+    background-color: rgba(253, 251, 253, 0.081);
+}
+
+.tech_head{
+    color: rgba(147, 81, 55, 0.843)
+}
+
+
+
+/* business news box */
+.business_news{
+    border: 2px solid rgba(61, 148, 145, 0.5);
+    display: flex;
+    border-radius: 4px;
+    background-color: rgba(61, 148, 145, 0.5);
+}
+
+.business_img{
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.inner_business{
+    width: 800px;
+}
+
+.inner_business .busi_name,.busi_date{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_business .busi_title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_business p{
+    position: relative;
+    left: 10px;
+}
+
+.inner_business .busi_description{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.busi_btn{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#busi_button{
+    border: 2px solid rgba(188, 185,185, 0.24);
+    font-size: 30px;
+    background-color: rgba(188, 185,185, 0.24);
+}
+
+.business_head{
+    color: rgba(147, 81, 55, 0.843)
+}
+
+
+/* wallstreet news box*/
+
+.wallstreet_news{
+    border: 2px solid rgba(61, 148, 78, 0.5);
+    display: flex;
+    border-radius: 4px;
+    background-color: rgba(61, 148, 78, 0.5);
+}
+
+.wallstreet_img{
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.inner_wallstreet{
+    width: 800px;
+}
+
+.inner_wallstreet .wallstreet_name,.wallstreet_date{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_wallstreet .wallstreet_title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner_wallstreet p{
+    position: relative;
+    left: 10px;
+}
+
+.inner_wallstreet .wallstreet_description{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wallstreet_btn{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+#wallstreet_button{
+    border: 2px solid rgba(188, 185,185, 0.24);
+    font-size: 30px;
+    background-color: rgba(188, 185,185, 0.24);
+}
+
+.wallstreet_head{
+    color: rgba(147, 81, 55, 0.843)
+}
+
+/* footer section */
+footer{
+    /* width: 85rem; */
+    background: #222831;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 20px;
+    color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+

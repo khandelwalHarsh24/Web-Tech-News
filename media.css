@@ -1,0 +1,47 @@
+/* logo image */
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ul list */
+
+.nav{
+    background-color: #222831;
+    width: 1244px;
+}
+.nav1{
+    top:30px;
+}
+
+.nav1 li a{
+    font-size: 34px;
+}
+
+/* openbtn,closebtn */
+.openbtn,.closebtn{
+    visibility: hidden;
+}
+
+/* wall-street journal */
+.container{
+    height: 105rem;
+}
+.wallstreet_img,.tech_img,.business_img{
+    width: 350px;
+    height: 350px;
+    
+}
+
+.busi_title,.tech_title,.wallstreet_title{
+    width: 367px;
+}
+
+
+/* footer */
+/* footer{
+    width: 85rem;
+} */
+
+

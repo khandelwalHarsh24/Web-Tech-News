@@ -79,7 +79,8 @@
     height: 100px; */
     width: 228px;
     height: 150px;
-    
+    position: relative;
+    left: 185px;
 }
 
 .business_news,.tech_news,.wallstreet_news{
@@ -102,6 +103,38 @@
     font-size: 50px;
 }
 
+.wallstreet_name,.wallstreet_title,.wallstreet_description,.wallstreet_date{
+    margin: 34px;
+}
+
+.tech_title,.description,.name,.date{
+    margin: 34px;
+}
+
+.busi_title,.busi_description,.busi_date,.busi_name{
+    margin: 34px;
+}
+
+.inner_wallstreet,.inner_tech,.inner_business{
+    width: 651px;
+    position: relative;
+    left: 75px;
+}
+
+.wallstreet_head,.tech_head{
+    position: relative;
+    left: 92px;
+}
+
+.business_head{
+    position: relative;
+    left: 112px;
+}
+
+.tech_head{
+    position: relative;
+    left: 126px;
+}
 /* footer */
 footer{
     width: 60em;
